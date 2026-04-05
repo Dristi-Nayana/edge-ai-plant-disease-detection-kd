@@ -66,13 +66,12 @@ Python, PyTorch, OpenCV, ONNX Runtime, NumPy, Pandas
 
 ## 📁 Code Structure
 
-- `train_kd.py` → Knowledge Distillation training  
-- `inference.py` → Real-time camera inference (latency-based)  
-- `inference_fps.py` → Real-time inference with FPS monitoring  
+- `edge_ai_detection.ipynb` → Knowledge Distillation training pipeline  
+- `inference.py` → Real-time camera inference  
+- `inference_fps.py` → FPS-based inference  
 - `evaluate.py` → Model evaluation  
-- `app.py` → Streamlit web application  
-- `main.py` → Core implementation  
-- `edge_ai_detection.ipynb` → End-to-end workflow
+- `app.py` → Streamlit web app  
+- `main.py` → Core implementation
 
   
 ## ⚡ Key Features
