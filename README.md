@@ -82,6 +82,9 @@ Python, PyTorch, OpenCV, ONNX Runtime, NumPy, Pandas
 - Performance monitoring using FPS and latency metrics
 - Web-based interface using Streamlit
 
+  ## 📦 Model
+🔗 [Download ONNX Model](https://drive.google.com/file/d/1E5m5pFcz3xtZBV3yLKHGo5tNTyI38Nop/view?usp=sharing)
+
 ## 📦 Note
 Dataset and trained models are not included due to size limitations.
 
