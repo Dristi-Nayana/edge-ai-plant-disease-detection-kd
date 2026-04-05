@@ -48,13 +48,13 @@ Python, PyTorch, OpenCV, ONNX Runtime, NumPy, Pandas
 ## 📸 Sample Results
 
 ### Knowledge Distillation Pipeline
-(Add Fig 3.1 or 3.2)
+<img src="results/kd_pipeline.png" width="500"/>
 
 ### Model Performance
-(Add accuracy vs size graph)
+<img src="results/performance_graph.png" width="500"/>
 
 ### Real-Time Deployment
-(Add smartphone + laptop setup image)
+<img src="results/deployment_setup.png" width="500"/>
 
 ## 📦 Note
 Dataset and trained models are not included due to size limitations.
