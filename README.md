@@ -64,6 +64,25 @@ Python, PyTorch, OpenCV, ONNX Runtime, NumPy, Pandas
 ### Real-Time Deployment
 <img src="results/deployment_setup.png" width="500"/>
 
+## 📁 Code Structure
+
+- `train_kd.py` → Knowledge Distillation training  
+- `inference.py` → Real-time camera inference (latency-based)  
+- `inference_fps.py` → Real-time inference with FPS monitoring  
+- `evaluate.py` → Model evaluation  
+- `app.py` → Streamlit web application  
+- `main.py` → Core implementation  
+- `edge_ai_detection.ipynb` → End-to-end workflow
+
+  
+## ⚡ Key Features
+
+- Real-time plant disease detection using live camera feed
+- ONNX-optimized inference for edge deployment
+- Knowledge Distillation for model compression (3× reduction)
+- Performance monitoring using FPS and latency metrics
+- Web-based interface using Streamlit
+
 ## 📦 Note
 Dataset and trained models are not included due to size limitations.
 
@@ -72,7 +91,12 @@ Dataset and trained models are not included due to size limitations.
 - Multi-modal inputs (temperature, humidity)
 - Mobile app integration
 
-  ## ⚙️ Installation
+ ## 🌐 Web Application
 
-```bash
+Run the Streamlit app:
+streamlit run src/app.py
+
+## ⚙️ Installation
 pip install -r requirements.txt
+
+
