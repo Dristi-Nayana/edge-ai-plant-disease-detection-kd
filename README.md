@@ -1,3 +1,5 @@
+Edge-AI based plant disease detection system using Knowledge Distillation and ONNX for real-time inference on resource-constrained devices.
+
 # Edge-AI Powered Plant Disease Detection using Knowledge Distillation
 
 This project presents a lightweight and deployable Edge-AI system for plant disease detection using Knowledge Distillation and real-time inference.
