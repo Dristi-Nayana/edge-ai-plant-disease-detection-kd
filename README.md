@@ -9,6 +9,7 @@ This project presents a lightweight and deployable Edge-AI system for plant dise
 - Developed a high-accuracy plant disease detection system for edge devices
 - Used Knowledge Distillation to compress deep learning models
 - Achieved real-time inference using smartphone + laptop setup
+- Designed for real-time edge deployment in resource-constrained environments
 
 ## 🧠 Methodology
 
@@ -23,9 +24,11 @@ This project presents a lightweight and deployable Edge-AI system for plant dise
 - Combined loss: Cross-Entropy + KL Divergence
 - Temperature scaling (T = 4)
 
-### 🔹 Deployment
-- Model converted to ONNX format
-- Real-time inference using OpenCV + ONNX Runtime
+## 📱 Real-Time Deployment
+
+- Live inference using smartphone camera (DroidCam) + laptop setup
+- ONNX Runtime used for efficient edge inference
+- Achieved ~20–25 FPS in real-world conditions
 
 ## 📊 Results
 
@@ -35,8 +38,13 @@ This project presents a lightweight and deployable Edge-AI system for plant dise
 - Real-time performance: **20–25 FPS**
 
 ## 📂 Dataset
-- PlantVillage Dataset (~54,000 images, 38 classes)
-- Real-world dataset (CGIAR crop disease dataset)
+
+- 🌿 [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)  
+  - ~54,000 images across 38 classes (controlled conditions)
+
+- 🌾 [CGIAR Crop Disease Dataset](https://www.kaggle.com/datasets/shadabhussain/cgiar-computer-vision-for-crop-disease)  
+  - Real-world images captured from UAVs and smartphones
+
 
 ## 🛠 Tech Stack
 Python, PyTorch, OpenCV, ONNX Runtime, NumPy, Pandas
@@ -63,3 +71,8 @@ Dataset and trained models are not included due to size limitations.
 - Deploy on Raspberry Pi / Jetson Nano
 - Multi-modal inputs (temperature, humidity)
 - Mobile app integration
+
+  ## ⚙️ Installation
+
+```bash
+pip install -r requirements.txt
