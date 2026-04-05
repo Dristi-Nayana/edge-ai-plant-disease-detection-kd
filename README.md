@@ -10,6 +10,7 @@ This project presents a lightweight and deployable Edge-AI system for plant dise
 - Used Knowledge Distillation to compress deep learning models
 - Achieved real-time inference using smartphone + laptop setup
 - Designed for real-time edge deployment in resource-constrained environments
+- End-to-end pipeline from training to real-time deployment
 
 ## 🧠 Methodology
 
@@ -93,12 +94,21 @@ Dataset and trained models are not included due to size limitations.
 - Multi-modal inputs (temperature, humidity)
 - Mobile app integration
 
- ## 🌐 Web Application
+## ▶️ How to Run
 
-Run the Streamlit app:
+### Install dependencies
+pip install -r requirements.txt
+
+## Run real-time inference
+python src/inference.py
+
+## Run evaluation
+python src/evaluate.py
+ 
+## Run the Streamlit app:
 streamlit run src/app.py
 
-## ⚙️ Installation
-pip install -r requirements.txt
+
+
 
 
